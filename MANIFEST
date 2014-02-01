@@ -1,21 +1,18 @@
-.shipit
 Build.PL
 Changes
-inc/Module/Install.pm
-inc/Module/Install/AuthorTests.pm
-inc/Module/Install/Base.pm
-inc/Module/Install/Makefile.pm
-inc/Module/Install/Metadata.pm
-inc/Module/Install/Repository.pm
-inc/Module/Install/WriteAll.pm
+LICENSE
+MANIFEST
+MANIFEST.SKIP
+META.json
+META.yml
+README
+README.md
+cpanfile
 lib/JSON/Pointer.pm
 lib/JSON/Pointer/Context.pm
 lib/JSON/Pointer/Exception.pm
 lib/JSON/Pointer/Syntax.pm
-MANIFEST			This list of files
-MANIFEST.SKIP
-META.yml
-README
+minil.toml
 t/000_load.t
 t/001_traverse.t
 t/002_get.t
@@ -26,6 +23,7 @@ t/006_replace.t
 t/007_copy.t
 t/008_move.t
 t/009_test.t
+t/rt/89773.t
 t/syntax/001_unescape_reference_token.t
 t/syntax/002_escape_reference_token.t
 t/syntax/003_tokenize.t
@@ -36,5 +34,3 @@ xt/pod.t
 xt/podcoverage.t
 xt/podspell.t
 xt/podsynopsis.t
-LICENSE
-META.json
