@@ -1,10 +1,7 @@
 Build.PL
 Changes
 LICENSE
-MANIFEST
-MANIFEST.SKIP
 META.json
-META.yml
 README.md
 cpanfile
 lib/JSON/Pointer.pm
@@ -31,5 +28,6 @@ t/syntax/005_is_array_numeric_index.t
 xt/perlcritic.t
 xt/pod.t
 xt/podcoverage.t
-xt/podspell.t
 xt/podsynopsis.t
+META.yml
+MANIFEST

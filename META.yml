@@ -10,7 +10,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.11.0, CPAN::Meta::Converter version 2.130870'
+generated_by: 'Minilla/v1.0.0, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -29,18 +29,18 @@ no_index:
 provides:
   JSON::Pointer:
     file: lib/JSON/Pointer.pm
-    version: 0.03
+    version: 0.04
   JSON::Pointer::Context:
     file: lib/JSON/Pointer/Context.pm
-    version: 0.03
+    version: 0.04
   JSON::Pointer::Exception:
     file: lib/JSON/Pointer/Exception.pm
-    version: 0.03
+    version: 0.04
   JSON::Pointer::Syntax:
     file: lib/JSON/Pointer/Syntax.pm
-    version: 0.03
+    version: 0.04
 requires:
-  B: 1.29
+  B: 0
   Carp: 1.20
   Class::Accessor::Lite: 0.05
   Clone: 0.36
@@ -52,7 +52,8 @@ resources:
   bugtracker: https://github.com/zigorou/perl-json-pointer/issues
   homepage: https://github.com/zigorou/perl-json-pointer
   repository: git://github.com/zigorou/perl-json-pointer.git
-version: 0.03
+version: 0.04
 x_contributors:
   - 'aoneko <aoneko.ether@gmail.com>'
-  - 'zigorou <zigorou@cpan.org>'
+  - 'Kensaku Araga <ken39arg@gmail.com>'
+  - 'Toru Yamaguchi <zigorou@cpan.org>'

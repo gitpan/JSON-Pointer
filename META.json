@@ -4,7 +4,7 @@
       "Toru Yamaguchi <zigorou at cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.11.0",
+   "generated_by" : "Minilla/v1.0.0",
    "license" : [
       "perl_5"
    ],
@@ -36,14 +36,15 @@
       "develop" : {
          "requires" : {
             "Test::CPAN::Meta" : "0",
-            "Test::MinimumVersion" : "0.10108",
+            "Test::MinimumVersion::Fast" : "0.04",
+            "Test::PAUSE::Permissions" : "0.04",
             "Test::Pod" : "1.41",
             "Test::Spellunker" : "v0.2.7"
          }
       },
       "runtime" : {
          "requires" : {
-            "B" : "1.29",
+            "B" : "0",
             "Carp" : "1.20",
             "Class::Accessor::Lite" : "0.05",
             "Clone" : "0.36",
@@ -63,19 +64,19 @@
    "provides" : {
       "JSON::Pointer" : {
          "file" : "lib/JSON/Pointer.pm",
-         "version" : "0.03"
+         "version" : "0.04"
       },
       "JSON::Pointer::Context" : {
          "file" : "lib/JSON/Pointer/Context.pm",
-         "version" : "0.03"
+         "version" : "0.04"
       },
       "JSON::Pointer::Exception" : {
          "file" : "lib/JSON/Pointer/Exception.pm",
-         "version" : "0.03"
+         "version" : "0.04"
       },
       "JSON::Pointer::Syntax" : {
          "file" : "lib/JSON/Pointer/Syntax.pm",
-         "version" : "0.03"
+         "version" : "0.04"
       }
    },
    "release_status" : "stable",
@@ -89,9 +90,10 @@
          "web" : "https://github.com/zigorou/perl-json-pointer"
       }
    },
-   "version" : "0.03",
+   "version" : "0.04",
    "x_contributors" : [
       "aoneko <aoneko.ether@gmail.com>",
-      "zigorou <zigorou@cpan.org>"
+      "Kensaku Araga <ken39arg@gmail.com>",
+      "Toru Yamaguchi <zigorou@cpan.org>"
    ]
 }
