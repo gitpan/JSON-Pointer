@@ -29,16 +29,16 @@ no_index:
 provides:
   JSON::Pointer:
     file: lib/JSON/Pointer.pm
-    version: '0.05'
+    version: '0.06'
   JSON::Pointer::Context:
     file: lib/JSON/Pointer/Context.pm
-    version: '0.05'
+    version: '0.06'
   JSON::Pointer::Exception:
     file: lib/JSON/Pointer/Exception.pm
-    version: '0.05'
+    version: '0.06'
   JSON::Pointer::Syntax:
     file: lib/JSON/Pointer/Syntax.pm
-    version: '0.05'
+    version: '0.06'
 requires:
   B: '0'
   Carp: '1.20'
@@ -52,9 +52,10 @@ resources:
   bugtracker: https://github.com/zigorou/perl-json-pointer/issues
   homepage: https://github.com/zigorou/perl-json-pointer
   repository: git://github.com/zigorou/perl-json-pointer.git
-version: '0.05'
+version: '0.06'
 x_contributors:
   - 'aoneko <aoneko.ether@gmail.com>'
   - 'Kensaku Araga <ken39arg@gmail.com>'
   - 'Ichito Nagata <i.nagata110@gmail.com>'
+  - 'Hiroyoshi Houchi <git@hixi-hyi.com>'
   - 'Toru Yamaguchi <zigorou@cpan.org>'
